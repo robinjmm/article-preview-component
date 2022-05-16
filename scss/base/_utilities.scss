@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+.hidden {
+    display: none;
+}
+
+.share-active {
+    background-color: hsl(212, 23%, 69%);
+}
+
+.color-white {
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-dark {
+    background-color: var(--bg-dark);
+}
