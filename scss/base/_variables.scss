@@ -1,0 +1,31 @@
+:root {
+    // Colors
+    --primary-color: hsl(214, 17%, 51%);
+    --dark-accent-color: hsl(217, 19%, 35%);
+    --icon-color: hsl(212, 23%, 69%);
+
+    --bg-main: hsl(210, 46%, 95%);
+    --bg-icon: hsl(210, 46%, 95%);
+    --bg-card: hsl(0, 0%, 100%);
+    --bg-dark: hsl(217, 19%, 35%);
+
+
+    // Fonts
+    --ff-primary: 'Manrope', sans-serif;
+    --fw-normal: 500;
+    --fw-bold: 700;
+}
+
+// Functions
+@function rem($value) {
+    $remValue: calc(($value / 1rem) * 1rem);
+    @return $remValue;
+}
+
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}

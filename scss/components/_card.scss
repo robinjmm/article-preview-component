@@ -1,0 +1,55 @@
+@use '../base/variables' as *;
+
+.card {
+    background-color: var(--bg-card);
+    width: 95%;
+    max-width: rem(350px);
+    margin: 0 auto;
+    color: var(--primary-color);
+    line-height: 1.6;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0px 5px 30px hsla(214, 17%, 51%, 0.11);
+
+    &__body {
+        padding: rem(32px);
+    }
+
+    &__heading {
+        color: var(--dark-accent-color);
+        font-size: rem(16px);
+        font-weight: var(--fw-bold);
+        margin-bottom: em(20px, 16px);
+    }
+
+    &__footer {
+        padding: 0 rem(32px) rem(32px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__footer-author {
+        display: flex;
+        gap: 1rem;
+    }
+
+    &__avatar {
+        width: rem(40px);
+        height: rem(40px);
+        border-radius: 50%;
+    }
+
+    &__name {
+        color: var(--dark-accent-color);
+        font-weight: var(--fw-bold);
+    }
+
+    &__share-icon {
+        cursor: pointer;
+        color: var(--icon-color);
+        background-color: var(--bg-icon);
+        padding: rem(10px);
+        border-radius: 50%;
+    }
+}
