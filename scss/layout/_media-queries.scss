@@ -1,0 +1,64 @@
+@use '../base/variables' as *;
+
+@media (min-width: 1024px) {
+
+    .pop-up {
+        width: auto;
+        height: auto;
+        left: auto;
+        right: rem(-62px);
+        bottom: 0;
+        border-radius: 1rem;
+        transform: scale(0) translateY(0);
+        transition: transform 0.2s linear;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: rem(50px);
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid var(--bg-dark);
+        }
+    }
+
+    .visible {
+        transform: scale(1) translateY(-80px);
+    }
+
+    .card {
+        max-width: 730px;
+        display: flex;
+
+        &__banner {
+            display: flex;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 1em;
+        }
+
+        &__image {
+            max-height: 100%;
+            object-fit: cover;
+            object-position: left;
+        }
+
+        &__heading {
+            font-size: rem(20px);
+            line-height: 1.2;
+            margin-bottom: 1em;
+        }
+
+        &__body {
+            padding-inline: rem(40px);
+        }
+
+        &__footer {
+            padding-top: 0;
+            padding-inline: rem(40px);
+        }
+    }
+}

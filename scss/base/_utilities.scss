@@ -4,8 +4,10 @@
     display: flex;
 }
 
-.hidden {
-    display: none;
+.visible {
+    visibility: visible;
+    width: 100%;
+    max-width: 100%;
 }
 
 .share-active {
@@ -14,8 +16,4 @@
 
 .color-white {
     color: hsl(0, 0%, 100%);
-}
-
-.bg-dark {
-    background-color: var(--bg-dark);
 }
