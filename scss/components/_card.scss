@@ -23,23 +23,22 @@
     }
 
     &__footer {
-        padding: rem(20px) rem(32px);
         display: flex;
         align-items: center;
-        justify-content: center;
         justify-content: space-between;
+        padding: rem(20px) rem(32px);
         transition: background-color 0.2s linear;
     }
 
-    &__footer-author {
+    &__author {
         display: flex;
-        gap: 1rem;
     }
 
     &__avatar {
-        width: rem(40px);
-        height: rem(40px);
+        width: rem(38px);
+        height: rem(38px);
         border-radius: 50%;
+        margin-right: 1rem;
     }
 
     &__name {
@@ -47,12 +46,6 @@
         font-weight: var(--fw-bold);
     }
 
-    &__share-icon {
-        cursor: pointer;
-        background-color: var(--bg-icon);
-        padding: rem(10px);
-        border-radius: 50%;
-    }
 
     &__label {
         font-weight: var(--fw-bold);
@@ -61,6 +54,7 @@
 
     &__icons {
         display: flex;
+        align-items: center;
         gap: rem(18px);
         cursor: pointer;
     }

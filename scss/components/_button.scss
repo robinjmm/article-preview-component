@@ -1,0 +1,16 @@
+@use '../base/variables' as *;
+
+.share-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--bg-icon);
+    width: rem(35px);
+    height: rem(35px);
+    border-radius: 50%;
+}
+
+.fa-share {
+    font-size: rem(14px);
+}

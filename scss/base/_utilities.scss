@@ -1,5 +1,9 @@
 @use "./variables" as *;
 
+.flex {
+    display: flex;
+}
+
 .hidden {
     display: none;
 }
