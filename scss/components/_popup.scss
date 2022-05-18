@@ -1,6 +1,7 @@
 @use '../base//variables' as *;
 
 .pop-up {
+    overflow: hidden;
     position: absolute;
     visibility: hidden;
     width: 0;
@@ -9,7 +10,6 @@
     left: 0;
     height: 81px;
     background-color: var(--bg-dark);
-    padding: rem(20px) rem(32px);
     display: flex;
     align-items: center;
     gap: rem(18px);
