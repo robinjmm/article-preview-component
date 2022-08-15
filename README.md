@@ -1,9 +1,9 @@
 # Article Preview Card
-![](./images/solution-screenshot.png)
+![](assets/images/solution-screenshot.png)
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
-- [Site Preview](https://robinjmm-article-preview.netlify.app/)
+- [Site Preview](https://robinjmm-article.vercel.app/)
 
 ## About
 This is my solution for the challenge of building an article preview component from [Frontendmentor.io](https://www.frontendmentor.io)
@@ -14,24 +14,23 @@ The layout and style of the card is rather simple to re-create. However, I strug
 
 Hopefully, I can come back and improve my solution in the future.
 
-**Any feedback on how to improve my solution would be greatly appreciated.** 😊
-
 ## User Stories
 The user should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See the social media share links when they click the share icon
 
 ## Built With
-- Semantic HTML5
+- HTML5
 - CSS3
 - Flexbox
 - Sass
+- PostCSS
 - JavaScript
 
 ## Usage
 You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
 
-Once you finish extracting, move into the project folder, open the terminal, and type the following code:
+Once you finish extracting, open the terminal, move into the project folder, and type the following code:
 
 ```
 npm install
