@@ -4,7 +4,8 @@ module.exports = {
         require("@fullhuman/postcss-purgecss")({
             content: ["./index.html"],
             css: ["./css/styles.css"],
-            variables: true
+            variables: true,
+            safelist: ["flex", "visible", "share-active", "color-white"]
         }),
         require("cssnano")
     ]
